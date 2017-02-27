@@ -6,10 +6,11 @@
 
     <com.zhy.view.flowlayout.TagFlowLayout
         android:id="@+id/id_flowlayout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-	android:padding="20dp"
-        zhy:max_select="1"
-        >
-    </com.zhy.view.flowlayout.TagFlowLayout>
+        android:background="#f0f0f0"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        zhy:max_select="1"/>
+
 </LinearLayout>
